@@ -32,3 +32,8 @@ OR you can use swap class variables for example:
     s1.temp = s1.a;
     s1.a = s1.b;
     s1.b = s1.temp;
+
+7. First and Last Digit
+
+To return the first digit of a number, make a while loop as n >= 10 with n/=10 to get the first digit
+To return the last digit of a number, make a return n % 10 to get the last digit of a number.
