@@ -1,0 +1,20 @@
+1. char vs string
+
+string can be a whole word like "local", this word can be inserted into a string and be identified as a variable
+
+2. absolute (abs)
+
+abs can be imported from cmath library and can be used to always have a positive value.
+
+3. Uppercase & Lowercase
+
+tolower is used to convert uppercase letters to lowercase letters
+islower is used to check if the letter is a lowercase letter or not.
+toupper is used to convert uppercase letters to lowercase letters
+isupper is used to check if the letter is a uppercase letter or not
+these functions can be imported from cctype library or ctype.h
+
+4. string functions
+
+strcmp is used to compare string functions to their corresponding
+strcpy is used to copy from the first string and replace it with the second string
