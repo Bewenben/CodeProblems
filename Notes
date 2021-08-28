@@ -9,9 +9,9 @@ abs can be imported from cmath library and can be used to always have a positive
 3. Uppercase & Lowercase
 
 tolower is used to convert uppercase letters to lowercase letters
-islower is used to check if the letter is a lowercase letter or not.
+islower is used to check if the letter is a lowercase letter or not. if(islower)
 toupper is used to convert uppercase letters to lowercase letters
-isupper is used to check if the letter is a uppercase letter or not
+isupper is used to check if the letter is a uppercase letter or not if(isupper)
 these functions can be imported from cctype library or ctype.h
 
 4. String Functions
