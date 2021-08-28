@@ -1,12 +1,16 @@
-1. Char VS String
+Char VS String
 
 string can be a whole word like "local", this word can be inserted into a string and be identified as a variable
 
-2. Absolute (abs)
+------------------------------------------------------------------------------------------------------------------
+
+Absolute (abs)
 
 abs can be imported from cmath library and can be used to always have a positive value.
 
-3. Uppercase & Lowercase
+------------------------------------------------------------------------------------------------------------------
+
+Uppercase & Lowercase
 
 tolower is used to convert uppercase letters to lowercase letters
 islower is used to check if the letter is a lowercase letter or not. if(islower)
@@ -14,17 +18,23 @@ toupper is used to convert uppercase letters to lowercase letters
 isupper is used to check if the letter is a uppercase letter or not if(isupper)
 these functions can be imported from cctype library or ctype.h
 
-4. String Functions
+------------------------------------------------------------------------------------------------------------------
+
+String Functions
 
 strcmp is used to compare string functions to their corresponding
 strcpy is used to copy from the first string and replace it with the second string
 
-5. Sorting Functions
+------------------------------------------------------------------------------------------------------------------
+
+Sorting Functions
 
 sort(arr, arr + N) is used to sort the string by the first letter or number 
 this function can be imported from algorithm library
 
-6. Swapping Functions
+------------------------------------------------------------------------------------------------------------------
+
+Swapping Functions
 
 swap(a,b) can be used to swap a value of a variable with a value of another variable
 this function can be imported from bits/stdc++.h library
@@ -32,8 +42,12 @@ OR you can use swap class variables for example:
     s1.temp = s1.a;
     s1.a = s1.b;
     s1.b = s1.temp;
+------------------------------------------------------------------------------------------------------------------
+    
 
-7. First and Last Digit
+First and Last Digit
 
 To return the first digit of a number, make a while loop as n >= 10 with n/=10 to get the first digit
 To return the last digit of a number, make a return n % 10 to get the last digit of a number.
+
+------------------------------------------------------------------------------------------------------------------
