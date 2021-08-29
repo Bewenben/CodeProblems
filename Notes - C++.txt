@@ -1,6 +1,7 @@
 Char VS String
 
 string can be a whole word like "local", this word can be inserted into a string and be identified as a variable
+you can get the nth character of a string by using the following code: string str; char stringindex = str[i];
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -44,7 +45,6 @@ OR you can use swap class variables for example:
     b = temp;
 ------------------------------------------------------------------------------------------------------------------
     
-
 First and Last Digit
 
 To return the first digit of a number, make a while loop as n >= 10 with n/=10 to get the first digit
