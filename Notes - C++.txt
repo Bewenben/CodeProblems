@@ -39,9 +39,9 @@ Swapping Functions
 swap(a,b) can be used to swap a value of a variable with a value of another variable
 this function can be imported from bits/stdc++.h library
 OR you can use swap class variables for example:
-    s1.temp = s1.a;
-    s1.a = s1.b;
-    s1.b = s1.temp;
+    temp = a;
+    a = b;
+    b = temp;
 ------------------------------------------------------------------------------------------------------------------
     
 
