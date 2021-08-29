@@ -23,13 +23,13 @@ these functions can be imported from cctype library or ctype.h
 String Functions
 
 strcmp is used to compare string functions to their corresponding
-strcpy is used to copy from the first string and replace it with the second string
+strcpy is used to copy from the first string and replace it with the second string ,strcpy(second,first);
 
 ------------------------------------------------------------------------------------------------------------------
 
 Sorting Functions
 
-sort(arr, arr + N) is used to sort the string by the first letter or number 
+sort(arr, arr + length) is used to sort the string by the first letter or number 
 this function can be imported from algorithm library
 
 ------------------------------------------------------------------------------------------------------------------
@@ -49,5 +49,12 @@ First and Last Digit
 
 To return the first digit of a number, make a while loop as n >= 10 with n/=10 to get the first digit
 To return the last digit of a number, make a return n % 10 to get the last digit of a number.
+
+------------------------------------------------------------------------------------------------------------------
+
+Reverse
+
+To Reverse a char[] : reverse(str, str+strlen(str)); , this built-in function can be imported from bits/stdc++.h library
+To Reverse a string : reverse(str.begin(), str.end()); , this built-in function can be imported from bits/stdc++.h librar
 
 ------------------------------------------------------------------------------------------------------------------
