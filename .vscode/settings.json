@@ -1,6 +1,5 @@
 {
     "files.associations": {
-        "Watermelon.C": "cpp",
-        "iostream": "cpp"
+        "Watermelon.C": "cpp"
     }
 }
