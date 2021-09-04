@@ -64,3 +64,9 @@ To Reverse a char[] : reverse(str, str+strlen(str)); , this built-in function ca
 To Reverse a string : reverse(str.begin(), str.end()); , this built-in function can be imported from bits/stdc++.h librar
 
 ------------------------------------------------------------------------------------------------------------------
+
+Printing Decimal
+
+cout << fixed << setprecision(12) << x;, import from iomanip library.
+
+------------------------------------------------------------------------------------------------------------------
