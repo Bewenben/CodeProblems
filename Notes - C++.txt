@@ -3,13 +3,13 @@ Char VS String
 string can be a whole word like "local", this word can be inserted into a string and be identified as a variable
 you can get the nth character of a string by using the following code: string str; char stringindex = str[i];
 
-------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 Absolute (abs)
 
 abs can be imported from cmath library and can be used to always have a positive value.
 
-------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 Uppercase & Lowercase
 
@@ -19,21 +19,21 @@ toupper is used to convert uppercase letters to lowercase letters
 isupper is used to check if the letter is a uppercase letter or not if(isupper)
 these functions can be imported from cctype library or ctype.h
 
-------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 String Functions
 
 strcmp is used to compare string functions to their corresponding
 strcpy is used to copy from the first string and replace it with the second string ,strcpy(second,first);
 
-------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 Sorting Functions
 
 sort(arr, arr + length) is used to sort the string by the first letter or number 
 this function can be imported from algorithm library
 
-------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 Swapping Functions
 
@@ -43,7 +43,8 @@ OR you can use swap class variables for example:
     temp = a;
     a = b;
     b = temp;
-------------------------------------------------------------------------------------------------------------------
+    
+-----------------------------------------------------------------------------------------------------------
     
 First and Last Digit
 
@@ -56,17 +57,17 @@ for example: 1987
         int c = y / 10 % 10; // 8
         int d = y % 10; // 7
 
-------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 Reverse
 
 To Reverse a char[] : reverse(str, str+strlen(str)); , this built-in function can be imported from bits/stdc++.h library
 To Reverse a string : reverse(str.begin(), str.end()); , this built-in function can be imported from bits/stdc++.h librar
 
-------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 Printing Decimal
 
 cout << fixed << setprecision(12) << x;, import from iomanip library.
 
-------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
