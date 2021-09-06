@@ -13,10 +13,11 @@ abs can be imported from cmath library and can be used to always have a positive
 
 Uppercase & Lowercase
 
-tolower is used to convert uppercase letters to lowercase letters
-islower is used to check if the letter is a lowercase letter or not. if(islower)
-toupper is used to convert uppercase letters to lowercase letters
-isupper is used to check if the letter is a uppercase letter or not if(isupper)
+tolower() is used to convert uppercase letters to lowercase letters
+islower() is used to check if the letter is a lowercase letter or not. if(islower)
+toupper() is used to convert uppercase letters to lowercase letters
+isupper() is used to check if the letter is a uppercase letter or not if(isupper)
+isalpha() is used to check if the letter is a alpha letter or not.
 these functions can be imported from cctype library or ctype.h
 
 -----------------------------------------------------------------------------------------------------------
@@ -30,7 +31,8 @@ strcpy is used to copy from the first string and replace it with the second stri
 
 Sorting Functions
 
-sort(arr, arr + length) is used to sort the string by the first letter or number 
+sort(arr, arr + length) is used to sort the string by the first letter or number ( in case of a char[])
+sort(a.begin(), a.end()) is used to sort the string by the first letter or number ( in case of a string)
 this function can be imported from algorithm library
 
 -----------------------------------------------------------------------------------------------------------
