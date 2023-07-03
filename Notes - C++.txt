@@ -28,6 +28,8 @@ strcmp() is used to compare string functions to their corresponding
 strcpy() is used to copy from the first string and replace it with the second string ,strcpy(second,first);
 strcat() function appends a copy of an string to another string, strcat(s1,s2) : It will append a copy of 
 string 2 to string 1
+str.substr is used to get a part of any string. ex. string str2 = str.substr (0,2);
+stoi( str ) is used to convert string to integer.
 
 -----------------------------------------------------------------------------------------------------------
 
@@ -35,7 +37,72 @@ Sorting Functions
 
 sort(arr, arr + length) is used to sort the string by the first letter or number ( in case of a char[])
 sort(a.begin(), a.end()) is used to sort the string by the first letter or number ( in case of a string)
-this function can be imported from algorithm library
+this function can be imported from algorithm library.
+
+Sort using STL
+
+    int n = sizeof(arr) / sizeof(arr[0]);
+  
+    /*Here we take two parameters, the beginning of the
+    array and the length n upto which we want the array to
+    be sorted*/
+    sort(arr, arr + n);
+
+Selection Sorting
+
+// Function for Selection sort
+void selectionSort(int arr[], int n)
+{
+    int i, j, min_idx;
+ 
+    // One by one move boundary of
+    // unsorted subarray
+    for (i = 0; i < n - 1; i++) {
+ 
+        // Find the minimum element in
+        // unsorted array
+        min_idx = i;
+        for (j = i + 1; j < n; j++) {
+            if (arr[j] < arr[min_idx])
+                min_idx = j;
+        }
+ 
+        // Swap the found minimum element
+        // with the first element
+        if (min_idx != i)
+            swap(arr[min_idx], arr[i]);
+    }
+}
+
+    int n = sizeof(arr) / sizeof(arr[0]);
+ 
+    // Function Call
+    selectionSort(arr, n);
+
+
+// An optimized version of Bubble Sort
+void bubbleSort(int arr[], int n)
+{
+    int i, j;
+    bool swapped;
+    for (i = 0; i < n - 1; i++) {
+        swapped = false;
+        for (j = 0; j < n - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                swap(&arr[j], &arr[j + 1]);
+                swapped = true;
+            }
+        }
+  
+        // If no two elements were swapped by inner loop,
+        // then break
+        if (swapped == false)
+            break;
+    }
+}
+
+    int n = sizeof(arr) / sizeof(arr[0]);
+    bubbleSort(arr, n);
 
 -----------------------------------------------------------------------------------------------------------
 
@@ -75,3 +142,14 @@ Printing Decimal
 cout << fixed << setprecision(12) << x;, import from iomanip library.
 
 -----------------------------------------------------------------------------------------------------------
+
+Input a 2D Array
+
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < n; j++){
+            cin >> arr[i][j];
+        }
+    }
+
+___________________________________________________________________________________________________________
+
